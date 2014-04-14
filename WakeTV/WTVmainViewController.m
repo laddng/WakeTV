@@ -36,7 +36,7 @@
     item.channelName = [lineItem objectAtIndex:1];
     item.channel = [lineItem objectAtIndex:2];
     item.HD = [lineItem objectAtIndex:3];
-    item.HD = [lineItem objectAtIndex:4];
+    item.description = [lineItem objectAtIndex:4];
     [self.channelguide addObject:item];
    }
 }
@@ -107,24 +107,16 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    
+
     if([[segue identifier] isEqualToString:@"showChannel"]){
-        
         
         WTVsubViewController *subViewController = [segue destinationViewController];
         
-
-        
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
-        
-
         
         WTVChannel *channelItem = [self.channelguide objectAtIndex:myIndexPath.row];
         
-
-        
-        subViewController.channelInfo = @[channelItem.category, channelItem.HD, channelItem.channel, channelItem.description];
-
+        subViewController.channelInfo = @[channelItem.category, channelItem.HD, channelItem.channel, channelItem.channelName, channelItem.description];
 
     }
 
