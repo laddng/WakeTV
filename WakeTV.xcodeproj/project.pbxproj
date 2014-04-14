@@ -24,6 +24,7 @@
 		3149C69918E364E500E6B0E1 /* WTVChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149C69818E364E500E6B0E1 /* WTVChannel.m */; };
 		317605BC18F5EE0300EDDE91 /* channels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 317605BB18F5EE0300EDDE91 /* channels.txt */; };
 		3187882118EC9F1F003EBAEB /* WTVsubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187882018EC9F1F003EBAEB /* WTVsubViewController.m */; };
+		DD3553A718FC8E25006FE73B /* WTVsportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3553A618FC8E25006FE73B /* WTVsportsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		317605BB18F5EE0300EDDE91 /* channels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = channels.txt; sourceTree = "<group>"; };
 		3187881F18EC9F1F003EBAEB /* WTVsubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVsubViewController.h; sourceTree = "<group>"; };
 		3187882018EC9F1F003EBAEB /* WTVsubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVsubViewController.m; sourceTree = "<group>"; };
+		DD3553A518FC8E25006FE73B /* WTVsportsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVsportsTableViewController.h; sourceTree = "<group>"; };
+		DD3553A618FC8E25006FE73B /* WTVsportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVsportsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				310692BD18DA2F1E00617448 /* main.storyboard */,
 				310692C118DA30DA00617448 /* WTVmainViewController.h */,
 				310692C218DA30DA00617448 /* WTVmainViewController.m */,
+				DD3553A518FC8E25006FE73B /* WTVsportsTableViewController.h */,
+				DD3553A618FC8E25006FE73B /* WTVsportsTableViewController.m */,
 				3187881F18EC9F1F003EBAEB /* WTVsubViewController.h */,
 				3187882018EC9F1F003EBAEB /* WTVsubViewController.m */,
 				3149C69718E364E500E6B0E1 /* WTVChannel.h */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3553A718FC8E25006FE73B /* WTVsportsTableViewController.m in Sources */,
 				3106929D18DA2EE800617448 /* WTVAppDelegate.m in Sources */,
 				3149C69918E364E500E6B0E1 /* WTVChannel.m in Sources */,
 				310692C318DA30DA00617448 /* WTVmainViewController.m in Sources */,

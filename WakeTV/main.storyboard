@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vjD-Di-z9c">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jZu-kR-6ug">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -31,11 +31,12 @@
                             <outlet property="delegate" destination="qwu-9A-xEz" id="LzF-ci-ryy"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="y0a-I3-y6S"/>
                     <navigationItem key="navigationItem" title="All Channels" id="TFu-NO-mWm"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vue-CB-CFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1384" y="132"/>
+            <point key="canvasLocation" x="1955" y="282"/>
         </scene>
         <!--Vsub View Controller-->
         <scene sceneID="Qh9-g4-Vdj">
@@ -82,12 +83,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9wa-XF-Rhv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1810" y="126"/>
+            <point key="canvasLocation" x="2576" y="-464"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="v8R-CH-iQI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vjD-Di-z9c" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="wmO-7l-4hi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iyT-S2-B8n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -100,7 +102,132 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZc-0A-zhw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1482" y="282"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jkQ-mt-G45">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jZu-kR-6ug" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="KL8-63-4fs">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vjD-Di-z9c" kind="relationship" relationship="viewControllers" id="sv2-Cf-dpD"/>
+                        <segue destination="9cv-Jt-1sd" kind="relationship" relationship="viewControllers" id="aPp-Nw-Qqc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRq-iI-DiZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="858" y="132"/>
+        </scene>
+        <!--Vsports Table View Controller - Sports-->
+        <scene sceneID="RLi-Yi-yKT">
+            <objects>
+                <tableViewController title="Sports" id="Urv-V0-aF2" customClass="WTVsportsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="d33-uF-6CQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListPrototypeCell" id="8Na-Zn-ixb">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Na-Zn-ixb" id="Gfu-l5-bpi">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ikz-Lj-KVr" kind="push" id="isr-B0-ZPj"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="Urv-V0-aF2" id="BH2-Rs-slG"/>
+                            <outlet property="delegate" destination="Urv-V0-aF2" id="MXO-cX-sqE"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="e1d-vt-8gk"/>
+                    <navigationItem key="navigationItem" title="All Channels" id="scZ-4M-ylb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qNH-mo-8nw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1963" y="-464"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="a2K-r4-uTs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9cv-Jt-1sd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="yMT-wU-jdk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MOs-CK-L4f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Urv-V0-aF2" kind="relationship" relationship="rootViewController" id="cQc-Tg-swn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rYy-oQ-wXT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1482" y="-464"/>
+        </scene>
+        <!--Vsports Table View Controller - Sports-->
+        <scene sceneID="uTT-QN-ns8">
+            <objects>
+                <tableViewController title="Sports" id="T9T-Hd-hMB" customClass="WTVsportsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="RLq-BP-Pdq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListPrototypeCell" id="w8T-pe-XLw">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w8T-pe-XLw" id="Mv9-AT-lCh">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ikz-Lj-KVr" kind="push" id="xOg-bz-7HN"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="T9T-Hd-hMB" id="GNK-1Q-mMh"/>
+                            <outlet property="delegate" destination="T9T-Hd-hMB" id="VGt-g0-7wx"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="f4K-bK-jif"/>
+                    <navigationItem key="navigationItem" title="All Channels" id="ejc-nm-QA3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0V-Ka-CJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1963" y="-1172"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="ZJ2-0M-ttY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HBo-hj-eoO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="GiD-aP-mNW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MnX-GX-eLA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="T9T-Hd-hMB" kind="relationship" relationship="rootViewController" id="DZX-Aw-jIb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Eh-Ki-FB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1482" y="-1172"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -108,4 +235,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="xOg-bz-7HN"/>
+    </inferredMetricsTieBreakers>
 </document>
