@@ -28,14 +28,17 @@
     [super viewDidLoad];
     
     // Set navigation bar title to say channel number and channel name
-    self.navigationItem.title = [_channelInfo[2] stringByAppendingString:_channelInfo[3]];
+    self.navigationItem.title = _channelInfo[3];
     
-    // Label - category
+    // Label - Channel number
+    _number.text = _channelInfo[2];
+    
+    // Label - category from array of categories
     _cat.text = _channelInfo[0];
     
     // Label - HD or no HD
     // If HD == 1
-    if([_channelInfo[1] isEqual: @" 1"]){
+    if([_channelInfo[1] isEqual: @"1"]){
         _hd.text = @"HD";
     }
     // Else, say no HD

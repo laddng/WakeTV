@@ -30,7 +30,7 @@
     NSArray *lines = [fileContents componentsSeparatedByString:@"\n"];
     
    for (int i=0; i<[lines count]; i++) {
-       NSArray *lineItem = [lines[i] componentsSeparatedByString:@","];
+       NSArray *lineItem = [lines[i] componentsSeparatedByString:@"|"];
     WTVChannel *item = [[WTVChannel alloc] init];
     item.category = [lineItem objectAtIndex:0];
     item.channelName = [lineItem objectAtIndex:1];
@@ -84,7 +84,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     WTVChannel *channelItem = [self.channelguide objectAtIndex:indexPath.row];
-    cell.textLabel.text = [channelItem.channel stringByAppendingString:channelItem.channelName];
+    cell.textLabel.text = [[channelItem.channel stringByAppendingString:@" "] stringByAppendingString:channelItem.channelName];
     
     return cell;
 }

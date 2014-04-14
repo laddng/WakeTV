@@ -11,8 +11,8 @@
 #import "WTVChannel.h"
 #import "WTVsubViewController.h"
 @interface WTVsportsTableViewController ()
-@property NSMutableArray *channelguide;
 
+@property NSMutableArray *channelguide;
 
 @end
 
@@ -28,9 +28,11 @@
     NSArray *lines = [fileContents componentsSeparatedByString:@"\n"];
     
     for (int i=0; i<[lines count]; i++) {
-        NSArray *lineItem = [lines[i] componentsSeparatedByString:@","];
-        WTVChannel *item = [[WTVChannel alloc] init];
-        if([[lineItem objectAtIndex:0] isEqual: @"1"]){
+        NSArray *lineItem = [lines[i] componentsSeparatedByString:@"|"];
+        
+        // If this channel belongs in the sports category, add it
+        if ([[lineItem objectAtIndex:0] isEqualToString:@"1"]) {
+            WTVChannel *item = [[WTVChannel alloc] init];
             item.category = [lineItem objectAtIndex:0];
             item.channelName = [lineItem objectAtIndex:1];
             item.channel = [lineItem objectAtIndex:2];
@@ -38,6 +40,7 @@
             item.description = [lineItem objectAtIndex:4];
             [self.channelguide addObject:item];
         }
+        
     }
 }
 
@@ -64,8 +67,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
@@ -84,32 +85,16 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     WTVChannel *channelItem = [self.channelguide objectAtIndex:indexPath.row];
-    cell.textLabel.text = [channelItem.channel stringByAppendingString:channelItem.channelName];
+    cell.textLabel.text = [[channelItem.channel stringByAppendingString:@" "] stringByAppendingString:channelItem.channelName];
     
     return cell;
 }
 
-/*
- // Override to support rearranging the table view.
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
- {
- }
- */
-
-/*
- // Override to support conditional rearranging of the table view.
- - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
- {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
- }
- */
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    
+
     if([[segue identifier] isEqualToString:@"showChannel"]){
-        
+
         WTVsubViewController *subViewController = [segue destinationViewController];
         
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
@@ -117,7 +102,6 @@
         WTVChannel *channelItem = [self.channelguide objectAtIndex:myIndexPath.row];
         
         subViewController.channelInfo = @[channelItem.category, channelItem.HD, channelItem.channel, channelItem.channelName, channelItem.description];
-        
     }
     
 }

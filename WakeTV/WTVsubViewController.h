@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *hd;
 @property (weak, nonatomic) IBOutlet UILabel *cat;
 @property (weak, nonatomic) IBOutlet UITextView *desc;
+@property (strong, nonatomic) IBOutlet UILabel *number;
 
 
 @property (strong, nonatomic) NSArray *channelInfo;

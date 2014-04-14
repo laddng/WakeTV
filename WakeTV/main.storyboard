@@ -31,10 +31,21 @@
                             <outlet property="delegate" destination="qwu-9A-xEz" id="LzF-ci-ryy"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="y0a-I3-y6S"/>
+                    <tabBarItem key="tabBarItem" title="All" id="y0a-I3-y6S"/>
                     <navigationItem key="navigationItem" title="All Channels" id="TFu-NO-mWm"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="1kM-Rt-n0j" id="s6r-jj-hC7"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vue-CB-CFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="1kM-Rt-n0j">
+                    <connections>
+                        <outlet property="delegate" destination="qwu-9A-xEz" id="YrX-qe-Tex"/>
+                        <outlet property="searchContentsController" destination="qwu-9A-xEz" id="M8S-64-9tK"/>
+                        <outlet property="searchResultsDataSource" destination="qwu-9A-xEz" id="7dQ-gG-ccl"/>
+                        <outlet property="searchResultsDelegate" destination="qwu-9A-xEz" id="U3h-Ak-Zg7"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1955" y="282"/>
         </scene>
@@ -51,26 +62,33 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqB-Cz-GZv">
-                                <rect key="frame" x="254" y="72" width="46" height="41"/>
+                                <rect key="frame" x="254" y="76" width="46" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.64131741900000006" green="0.83392458550000004" blue="0.5267787115" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6q-Fh-db3">
-                                <rect key="frame" x="20" y="82" width="71" height="21"/>
+                                <rect key="frame" x="20" y="121" width="71" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVO-ez-gKC">
-                                <rect key="frame" x="20" y="121" width="280" height="308"/>
+                                <rect key="frame" x="20" y="139" width="280" height="308"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59v-8d-CRs">
+                                <rect key="frame" x="20" y="76" width="134" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -79,17 +97,18 @@
                         <outlet property="cat" destination="z6q-Fh-db3" id="0nV-B9-AjC"/>
                         <outlet property="desc" destination="fVO-ez-gKC" id="5Ug-4a-cvx"/>
                         <outlet property="hd" destination="OqB-Cz-GZv" id="FV6-Vt-GX1"/>
+                        <outlet property="number" destination="59v-8d-CRs" id="SZS-us-2t9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9wa-XF-Rhv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2576" y="-464"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - All-->
         <scene sceneID="v8R-CH-iQI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vjD-Di-z9c" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="wmO-7l-4hi"/>
+                    <tabBarItem key="tabBarItem" title="All" id="wmO-7l-4hi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iyT-S2-B8n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -140,7 +159,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ikz-Lj-KVr" kind="push" id="isr-B0-ZPj"/>
+                                    <segue destination="ikz-Lj-KVr" kind="push" identifier="showChannel" id="XDY-bv-KVX"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -150,18 +169,29 @@
                             <outlet property="delegate" destination="Urv-V0-aF2" id="MXO-cX-sqE"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="e1d-vt-8gk"/>
-                    <navigationItem key="navigationItem" title="All Channels" id="scZ-4M-ylb"/>
+                    <tabBarItem key="tabBarItem" title="Sports" id="e1d-vt-8gk"/>
+                    <navigationItem key="navigationItem" title="Sports" id="scZ-4M-ylb"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="RJN-xE-K6U" id="Kvm-lw-oBf"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qNH-mo-8nw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="RJN-xE-K6U">
+                    <connections>
+                        <outlet property="delegate" destination="Urv-V0-aF2" id="Pf8-AN-ahk"/>
+                        <outlet property="searchContentsController" destination="Urv-V0-aF2" id="Gnk-LR-p2y"/>
+                        <outlet property="searchResultsDataSource" destination="Urv-V0-aF2" id="asU-mf-1LK"/>
+                        <outlet property="searchResultsDelegate" destination="Urv-V0-aF2" id="7He-AY-haG"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1963" y="-464"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Sports-->
         <scene sceneID="a2K-r4-uTs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9cv-Jt-1sd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="yMT-wU-jdk"/>
+                    <tabBarItem key="tabBarItem" title="Sports" id="yMT-wU-jdk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MOs-CK-L4f">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -176,10 +206,10 @@
             </objects>
             <point key="canvasLocation" x="1482" y="-464"/>
         </scene>
-        <!--Vsports Table View Controller - Sports-->
+        <!--Table View Controller - Sports-->
         <scene sceneID="uTT-QN-ns8">
             <objects>
-                <tableViewController title="Sports" id="T9T-Hd-hMB" customClass="WTVsportsTableViewController" sceneMemberID="viewController">
+                <tableViewController title="Sports" id="T9T-Hd-hMB" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="RLq-BP-Pdq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,6 +266,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xOg-bz-7HN"/>
+        <segue reference="XDY-bv-KVX"/>
     </inferredMetricsTieBreakers>
 </document>
