@@ -19,6 +19,11 @@
 		310692A818DA2EE800617448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3106929018DA2EE800617448 /* UIKit.framework */; };
 		310692B018DA2EE800617448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 310692AE18DA2EE800617448 /* InfoPlist.strings */; };
 		310692B218DA2EE800617448 /* WakeTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310692B118DA2EE800617448 /* WakeTVTests.m */; };
+		310692BE18DA2F1E00617448 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310692BD18DA2F1E00617448 /* main.storyboard */; };
+		310692C318DA30DA00617448 /* WTVmainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310692C218DA30DA00617448 /* WTVmainViewController.m */; };
+		3149C69918E364E500E6B0E1 /* WTVChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149C69818E364E500E6B0E1 /* WTVChannel.m */; };
+		317605BC18F5EE0300EDDE91 /* channels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 317605BB18F5EE0300EDDE91 /* channels.txt */; };
+		3187882118EC9F1F003EBAEB /* WTVsubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187882018EC9F1F003EBAEB /* WTVsubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		310692AD18DA2EE800617448 /* WakeTVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WakeTVTests-Info.plist"; sourceTree = "<group>"; };
 		310692AF18DA2EE800617448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		310692B118DA2EE800617448 /* WakeTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WakeTVTests.m; sourceTree = "<group>"; };
+		310692BD18DA2F1E00617448 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		310692C118DA30DA00617448 /* WTVmainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVmainViewController.h; sourceTree = "<group>"; };
+		310692C218DA30DA00617448 /* WTVmainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVmainViewController.m; sourceTree = "<group>"; };
+		3149C69718E364E500E6B0E1 /* WTVChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVChannel.h; sourceTree = "<group>"; };
+		3149C69818E364E500E6B0E1 /* WTVChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVChannel.m; sourceTree = "<group>"; };
+		317605BB18F5EE0300EDDE91 /* channels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = channels.txt; sourceTree = "<group>"; };
+		3187881F18EC9F1F003EBAEB /* WTVsubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVsubViewController.h; sourceTree = "<group>"; };
+		3187882018EC9F1F003EBAEB /* WTVsubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVsubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +120,16 @@
 		3106929218DA2EE800617448 /* WakeTV */ = {
 			isa = PBXGroup;
 			children = (
+				317605BB18F5EE0300EDDE91 /* channels.txt */,
 				3106929B18DA2EE800617448 /* WTVAppDelegate.h */,
 				3106929C18DA2EE800617448 /* WTVAppDelegate.m */,
+				310692BD18DA2F1E00617448 /* main.storyboard */,
+				310692C118DA30DA00617448 /* WTVmainViewController.h */,
+				310692C218DA30DA00617448 /* WTVmainViewController.m */,
+				3187881F18EC9F1F003EBAEB /* WTVsubViewController.h */,
+				3187882018EC9F1F003EBAEB /* WTVsubViewController.m */,
+				3149C69718E364E500E6B0E1 /* WTVChannel.h */,
+				3149C69818E364E500E6B0E1 /* WTVChannel.m */,
 				3106929E18DA2EE800617448 /* Images.xcassets */,
 				3106929318DA2EE800617448 /* Supporting Files */,
 			);
@@ -219,7 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317605BC18F5EE0300EDDE91 /* channels.txt in Resources */,
 				3106929718DA2EE800617448 /* InfoPlist.strings in Resources */,
+				310692BE18DA2F1E00617448 /* main.storyboard in Resources */,
 				3106929F18DA2EE800617448 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3106929D18DA2EE800617448 /* WTVAppDelegate.m in Sources */,
+				3149C69918E364E500E6B0E1 /* WTVChannel.m in Sources */,
+				310692C318DA30DA00617448 /* WTVmainViewController.m in Sources */,
+				3187882118EC9F1F003EBAEB /* WTVsubViewController.m in Sources */,
 				3106929918DA2EE800617448 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +467,7 @@
 				310692B718DA2EE800617448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		310692B818DA2EE800617448 /* Build configuration list for PBXNativeTarget "WakeTVTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +476,7 @@
 				310692BA18DA2EE800617448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
