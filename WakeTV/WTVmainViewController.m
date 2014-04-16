@@ -6,8 +6,6 @@
 //
 //
 //
-
-
 #import "WTVmainViewController.h"
 #import "WTVChannel.h"
 #import "WTVsubViewController.h"
@@ -29,16 +27,43 @@
                                                                               error:NULL];
     NSArray *lines = [fileContents componentsSeparatedByString:@"\n"];
     
-   for (int i=0; i<[lines count]; i++) {
-       NSArray *lineItem = [lines[i] componentsSeparatedByString:@"|"];
-    WTVChannel *item = [[WTVChannel alloc] init];
-    item.category = [lineItem objectAtIndex:0];
-    item.channelName = [lineItem objectAtIndex:1];
-    item.channel = [lineItem objectAtIndex:2];
-    item.HD = [lineItem objectAtIndex:3];
-    item.description = [lineItem objectAtIndex:4];
-    [self.channelguide addObject:item];
-   }
+    // Categories translation
+    NSArray *categories = [NSArray arrayWithObjects: @"All", @"Entertainment", @"News", @"Sports", @"Movies", @"6", @"7", @"8", @"9", @"10", nil];
+
+    // Tab id #
+    NSInteger id = self.tabBarController.tabBar.selectedItem.tag;
+    NSString *tab = [NSString stringWithFormat:@"%ld", (long)id];
+
+    // if it's the main window, load everything
+    if([tab isEqualToString:@"0"]){
+        for (int i=0; i<[lines count]; i++) {
+            NSArray *lineItem = [lines[i] componentsSeparatedByString:@"|"];
+            WTVChannel *item = [[WTVChannel alloc] init];
+            item.category = [categories objectAtIndex:[[lineItem objectAtIndex:0] intValue]];
+            item.channelName = [lineItem objectAtIndex:1];
+            item.channel = [lineItem objectAtIndex:2];
+            item.HD = [lineItem objectAtIndex:3];
+            item.description = [lineItem objectAtIndex:4];
+            [self.channelguide addObject:item];
+        }
+
+    }
+    
+    // else make selections
+    else {
+        for (int i=0; i<[lines count]; i++) {
+           NSArray *lineItem = [lines[i] componentsSeparatedByString:@"|"];
+           if ([[lineItem objectAtIndex:0] isEqualToString:tab]) {
+            WTVChannel *item = [[WTVChannel alloc] init];
+            item.category = [categories objectAtIndex:[[lineItem objectAtIndex:0] intValue]];
+            item.channelName = [lineItem objectAtIndex:1];
+            item.channel = [lineItem objectAtIndex:2];
+            item.HD = [lineItem objectAtIndex:3];
+            item.description = [lineItem objectAtIndex:4];
+            [self.channelguide addObject:item];
+           }
+        }
+    }
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -98,7 +123,7 @@
         
         WTVChannel *channelItem = [self.channelguide objectAtIndex:myIndexPath.row];
         
-        subViewController.channelInfo = @[channelItem.category, channelItem.HD, channelItem.channel, channelItem.channelName, channelItem.description];
+        subViewController.channelInfo = @[channelItem.category, channelItem.HD, channelItem.channel, channelItem.channelName, channelItem.description];        
 
     }
 
