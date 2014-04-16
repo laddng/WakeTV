@@ -76,7 +76,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVO-ez-gKC">
-                                <rect key="frame" x="20" y="146" width="280" height="308"/>
+                                <rect key="frame" x="20" y="146" width="280" height="358"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -148,15 +148,6 @@
         <!--Vmain View Controller - Sports-->
         <scene sceneID="RLi-Yi-yKT">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qNH-mo-8nw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="RJN-xE-K6U">
-                    <connections>
-                        <outlet property="delegate" destination="Urv-V0-aF2" id="Pf8-AN-ahk"/>
-                        <outlet property="searchContentsController" destination="Urv-V0-aF2" id="Gnk-LR-p2y"/>
-                        <outlet property="searchResultsDataSource" destination="Urv-V0-aF2" id="asU-mf-1LK"/>
-                        <outlet property="searchResultsDelegate" destination="Urv-V0-aF2" id="7He-AY-haG"/>
-                    </connections>
-                </searchDisplayController>
                 <tableViewController title="Sports" id="Urv-V0-aF2" customClass="WTVmainViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="d33-uF-6CQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -187,13 +178,21 @@
                         <outlet property="searchDisplayController" destination="RJN-xE-K6U" id="Kvm-lw-oBf"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qNH-mo-8nw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="RJN-xE-K6U">
+                    <connections>
+                        <outlet property="delegate" destination="Urv-V0-aF2" id="Pf8-AN-ahk"/>
+                        <outlet property="searchContentsController" destination="Urv-V0-aF2" id="Gnk-LR-p2y"/>
+                        <outlet property="searchResultsDataSource" destination="Urv-V0-aF2" id="asU-mf-1LK"/>
+                        <outlet property="searchResultsDelegate" destination="Urv-V0-aF2" id="7He-AY-haG"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1963" y="-464"/>
         </scene>
         <!--Navigation Controller - Sports-->
         <scene sceneID="a2K-r4-uTs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rYy-oQ-wXT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9cv-Jt-1sd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="3" title="Sports" id="yMT-wU-jdk"/>
                     <toolbarItems/>
@@ -206,13 +205,13 @@
                         <segue destination="Urv-V0-aF2" kind="relationship" relationship="rootViewController" id="cQc-Tg-swn"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rYy-oQ-wXT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1482" y="-464"/>
         </scene>
         <!--Vmain View Controller - Entertainment-->
         <scene sceneID="uTT-QN-ns8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y0V-Ka-CJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="Entertainment" id="T9T-Hd-hMB" customClass="WTVmainViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="RLq-BP-Pdq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -240,13 +239,13 @@
                     <tabBarItem key="tabBarItem" title="Entertainment" id="f4K-bK-jif"/>
                     <navigationItem key="navigationItem" title="Entertainment" id="ejc-nm-QA3"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0V-Ka-CJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1963" y="-1172"/>
         </scene>
         <!--Navigation Controller - Entertainment-->
         <scene sceneID="ZJ2-0M-ttY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Eh-Ki-FB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController title="Entertainment" automaticallyAdjustsScrollViewInsets="NO" id="HBo-hj-eoO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="1" title="Entertainment" id="GiD-aP-mNW"/>
                     <toolbarItems/>
@@ -259,13 +258,13 @@
                         <segue destination="T9T-Hd-hMB" kind="relationship" relationship="rootViewController" id="DZX-Aw-jIb"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Eh-Ki-FB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1482" y="-1172"/>
         </scene>
         <!--Vmain View Controller - News-->
         <scene sceneID="fmA-ef-TEP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YLU-cI-Psc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="News" id="Hq2-yY-V8b" customClass="WTVmainViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mY9-ry-LIx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -293,13 +292,13 @@
                     <tabBarItem key="tabBarItem" title="News" id="ZHu-qh-q1k"/>
                     <navigationItem key="navigationItem" title="News" id="BO9-bV-7eG"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLU-cI-Psc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1963" y="-1919"/>
         </scene>
         <!--Navigation Controller - News-->
         <scene sceneID="EwT-pA-B3z">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zi5-Ve-PKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController title="News" automaticallyAdjustsScrollViewInsets="NO" id="VW9-Yg-zrA" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="2" title="News" id="gTI-q0-UqY"/>
                     <toolbarItems/>
@@ -312,13 +311,13 @@
                         <segue destination="Hq2-yY-V8b" kind="relationship" relationship="rootViewController" id="Dr6-Bj-IWi"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zi5-Ve-PKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1482" y="-1919"/>
         </scene>
         <!--Vmain View Controller - Movies-->
         <scene sceneID="bah-Pd-Je3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yK4-eT-xIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="Movies" id="iuJ-Xm-BO2" customClass="WTVmainViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="WeK-lN-B8F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -346,13 +345,13 @@
                     <tabBarItem key="tabBarItem" tag="2" title="Movies" id="PMf-ci-F4d"/>
                     <navigationItem key="navigationItem" title="Movies" id="12W-eG-hxW"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yK4-eT-xIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1963" y="-2587"/>
         </scene>
         <!--Navigation Controller - Movies-->
         <scene sceneID="ufz-Dw-mRo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lIt-Eq-1z2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController title="Movies" automaticallyAdjustsScrollViewInsets="NO" id="Mtw-vh-Wml" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="4" title="Movies" id="U2i-Ig-rF5"/>
                     <toolbarItems/>
@@ -365,6 +364,7 @@
                         <segue destination="iuJ-Xm-BO2" kind="relationship" relationship="rootViewController" id="ocL-L5-Ok9"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lIt-Eq-1z2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1482" y="-2587"/>
         </scene>
