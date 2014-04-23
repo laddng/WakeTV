@@ -13,6 +13,7 @@
 @interface WTVmainViewController ()
 
 @property NSMutableArray *channelguide;
+@property NSArray *sortedArray;
 
 @end
 
@@ -64,6 +65,12 @@
            }
         }
     }
+    
+    _sortedArray = [self.channelguide sortedArrayUsingComparator:^NSComparisonResult(WTVChannel *ch1, WTVChannel *ch2){
+        
+        return [ch1.channelName compare:ch2.channelName];
+        
+    }];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -106,8 +113,8 @@
     static NSString *CellIdentifier = @"ListPrototypeCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    WTVChannel *channelItem = [self.channelguide objectAtIndex:indexPath.row];
-    cell.textLabel.text = [[channelItem.channel stringByAppendingString:@" "] stringByAppendingString:channelItem.channelName];
+    WTVChannel *channelItem = [self.sortedArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = channelItem.channelName;
     
     return cell;
 }
@@ -121,7 +128,7 @@
         
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
         
-        WTVChannel *channelItem = [self.channelguide objectAtIndex:myIndexPath.row];
+        WTVChannel *channelItem = [self.sortedArray objectAtIndex:myIndexPath.row];
         
         subViewController.channelInfo = @[channelItem.category, channelItem.HD, channelItem.channel, channelItem.channelName, channelItem.description];        
 
