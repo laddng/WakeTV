@@ -38,7 +38,7 @@
     
     // Label - HD or no HD
     // If HD == 1
-    if([_channelInfo[1] isEqual: @"1"]){
+    if([_channelInfo[1] isEqual: @"2"]){
         _hd.text = @"HD";
     }
     // Else, say no HD

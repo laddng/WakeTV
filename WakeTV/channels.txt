@@ -13,17 +13,17 @@
 2|Carolina News|14|1| Local news channel 
 2|NBC|15|1| Entertainment, sports and news. 
 3|ESPN|16|1|America's number-one sports network delivers all sports, all the time, plus diverse sports-related news and information. Features "Sunday Night NFL," Major League Baseball and NCAA basketball. (Blackout restrictions apply.)
-4|HBO east|21|1|America's #1 premium network. It's the place for the biggest Hollywood hits, great original movies and award-winning series.
+4|HBO East|21|1|America's #1 premium network. It's the place for the biggest Hollywood hits, great original movies and award-winning series.
 4|HBO 2 - east|22|1| A second home for HBO's high-quality original and theatrical programming, including award-winning original movies and series, boxing events, documentaries and top Hollywood movies.
-4|HBO family|23|1| Original family series and Hollywood's best kid-friendly, family-focused entertainment.
-4|HBO signature|24|1| The best theatricals, original movies and series that touch the hearts, souls and minds of discriminating viewers.
-4|HBO comedy|25|1| Uncut and uncensored stand-up featuring big name stars as well as up-and-coming talent, plus original series and theatrical comedies.
+4|HBO Family|23|1| Original family series and Hollywood's best kid-friendly, family-focused entertainment.
+4|HBO Signature|24|1| The best theatricals, original movies and series that touch the hearts, souls and minds of discriminating viewers.
+4|HBO Comedy|25|1| Uncut and uncensored stand-up featuring big name stars as well as up-and-coming talent, plus original series and theatrical comedies.
 4|HBO Zone|26|1| Cutting-edge theatricals, original series and documentaries geared towards a diverse 18-34 year old audience.
-4|HBO latino|27|1| The only premium channel uniquely designed to give the fast-growing U.S. Latino audience expanded Spanish-language and Latino-relevant entertainment options.
+4|HBO Latino|27|1| The only premium channel uniquely designed to give the fast-growing U.S. Latino audience expanded Spanish-language and Latino-relevant entertainment options.
 4|Showtime|28|1| SHOWTIME®, with critically acclaimed original series like Dexter™, Weeds, Californication™, The Tudors and Penn & Teller: BS!, the best shows are now on SHOWTIME®! Also featured are Hollywood Hits No One Else Has®, Showtime Championship Boxing® and mixed martial arts. (Available on east and west coast feeds.)
 4|Showtime 2|29|1| Double your viewing options! In addition to box office favorites, SHOWTIME 2™ is home to catch-up marathons of SHOWTIME Original Series and sports. (Available on east and west coast feeds.)
-4|showcase|30|1| Featuring the best of SHOWTIME®, SHOWTIME® SHOWCASE offers feature films, select series and specials.
-4|showtime extreme|31|1| SHOWTIME EXTREME® now has more action and the best of SHOWTIME Sports®. With adrenaline-pumping movies, hard-hitting SHOWTIME Championship Boxing®, Strikeforce Mixed Martial Arts, Inside the NFL and Inside Nascar, it doesn't get any better than this. SHOWTIME EXTREME® – action that never, ever stops.
+4|Showcase|30|1| Featuring the best of SHOWTIME®, SHOWTIME® SHOWCASE offers feature films, select series and specials.
+4|Showtime Extreme|31|1| SHOWTIME EXTREME® now has more action and the best of SHOWTIME Sports®. With adrenaline-pumping movies, hard-hitting SHOWTIME Championship Boxing®, Strikeforce Mixed Martial Arts, Inside the NFL and Inside Nascar, it doesn't get any better than this. SHOWTIME EXTREME® – action that never, ever stops.
 4|Showtime Beyond|32|1| Geared toward the viewer with a bold imagination, SHOWTIME BEYOND® highlights the best in sci-fi, fantasy and horror films.
 4|Showtime Next|33|1| Catering to the Gen-Y audience, SHOWTIME NEXT® offers a unique viewing experience for the "next" generation of movie lovers. This channel airs theatricals, documentaries, acquired music and variety programs.
 4|Showtime women|34|1| SHOWTIME WOMEN® features programming that celebrates women in front of and behind the camera. 
@@ -32,7 +32,7 @@
 1|CBS|36-2|2| CBS television services from WFMY-TV, 2, Greensboro, NC 
 1|Fox|37-1|2| Fox television services from WGHP-TV, 8, High Point, NC
 1|NBC|37-2|2|  Entertainment, sports and news.
-3|ESPN|41-1|2| The only 24-hour sports news network. ESPN features continuous news, highlights, scores, analysis, and live press conferences.
+3|ESPN HD|41-1|2| The only 24-hour sports news network. ESPN features continuous news, highlights, scores, analysis, and live press conferences.
 3|ESPN-2|41-2|2| The network covers Major League Baseball, the National Hockey League, College Football and Basketball, Auto Racing, and the X-Games. ESPN2 also features live, studio support programming including NFL 2Night, NBA 2Night, NHL 2Night, College Hoops 2Night and RPM 2Night.
 3|ESPNEWS|42-1|2| The only 24-hour sports news network. ESPNEWS features continuous news, highlights, scores, analysis, and live press conferences.
 3|ESPN-U|42-2|2| ESPNU, a 24-hour college sports network will feature event programming, highlighted by approximately 300 live events (regular-season and championships). Action will include a variety of top Division I football and men's and women's basketball mixed with baseball, softball, volleyball, lacrosse, hockey, wrestling and more. ESPNU will also offer comprehensive studio programming, replays of ABC Sports, ESPN, ESPN2 and ESPN Regional Television games, plus specials and more.
@@ -57,30 +57,30 @@
 2|Headline News|50-2|2| CNN Headline News showcases a world of information — top stories, business news, weather, sports and entertainment — packed into 15 minutes by a round table of anchors.
 2|MSNBC|50-3|2| Economic News Channel 
 2|Weather Channel|51-1|2| Weather Channel with the latest weather forecast.
-8|A&E|51-2|2| A&E is Real Life. Drama. Now reaching more than 99 million homes, A&E is television that you can't turn away from; where unscripted shows are dramatic and scripted dramas are authentic. A&E offers a diverse mix of high quality entertainment ranging from the network's original scripted series including The Glades, to signature nonfiction franchises, including the Emmy-winning Intervention, Gene Simmons Family Jewels, Dog The Bounty Hunter, Hoarders, Paranormal State and Criss Angel Mindfreak, and the most successful justice shows on cable, including The First 48 and Manhunters.
-6|ABC Family|51-3|2| The destination for quality, contemporary family entertainment appealing to all ages in the household. ABC Family is the only national family channel providing the best in original and acquired movies, series, and specials.
-8|AMC|52-1|2| AMC is the network for people who love movies. We celebrate stylish iconic cinema and produce high caliber original series while giving viewers unprecedented access to their favorite stars.
-5|Animal Planet|52-2|2| Animal Planet immerses viewers in the full range of the animal kingdom with rich, engaging, high-quality entertainment, information and enrichment. Animal Planet taps into the instincts that drive us with stories and characters that resonate with the human condition.
-7|BET|52-3|2| BET is the nation's first and only television network providing a platform for quality programming highlighting African-American culture. BET represents the best in entertainment, trend-setting music videos, news, public affairs, jazz, specials, off-network sitcoms, gospel and college sports.
-8|Bravo|53-1|2| Bravo is the cable network that plugs people into arts, entertainment and pop culture with original programming, acclaimed drama series, movies, comedy and music specials, and by showing a whole different side of celebrities.
-6|Cartoon Network|53-2|2| The best place for cartoons; drawing from the world's largest cartoon library. Cartoon Network consists of innovative packaging of beloved cartoon characters and new cartoons such as The Powerpuff Girls, Ed, Edd 'n Eddy, Johnny Bravo, Samurai Jack and Dexter's Laboratory.
-7|Comedy Central|53-3|2| The only all-comedy network. Comedy Central is the place viewers turn to for 24 hours of programming that is clever, smart and, of course, funny.
-5|Discovery|54-1|2| Illustrating the world in all its wonder, diversity and amazement, Discovery Channel creates the highest quality content that ignites viewers curiosity, immerses them in the how and why, and satisfies them with information.
-6|Disney Channel|54-2|2| The Disney Channel has original series, music specials, and a new original movie premiering every month!
-7|E! Entertainment TV|54-3|2| E! inspires and entertains the pop culture fan in all of us. We never let you go a day, an hour, a minute without your pop of culture.
-5|Food Network|55-1|2| Food Network allows viewers to learn new recipes, innovative cooking techniques, add excitement to family meals, explore the country's finest restaurants, discover the latest healthy alternative and enjoy the humor and warmth of America's top chefs.
-8|FX|55-2|2| FX is the flagship general entertainment basic cable network from FOX. Launched in June of 1994, FX is carried in more than 94 million homes. The diverse schedule includes a growing roster of distinctive, award-winning original series including Emmy® and Golden Globe® winning The Shield; nip/tuck, basic cable's #1 show in the coveted Adults 18-49 demo; Emmy & Golden Globe nominated Rescue Me starring Denis Leary; and Damages, starring Golden Globe winner Glenn Close. FX also features an established film library with box-office hits from 20th Century FOX and other major studios and an impressive roster of acquired hit series.
-7|Fuel|55-3|2|Cars Channel 
-7|G-4|56-1|2| G4 offers the last word on gaming, technology, animation, interactivity, and "Internet culture" for the male 18-34 demo and is available in more than 62 million cable and satellite homes nationwide. The #1 podcasted cable network in America and a leader in VOD, G4 embraces the male 18-34 audience and their fascination with video games, the Internet, broadband, technology, comics and animation. Additionally, G4 provides breaking news and insider opinions on these topics as well as the broader culture young men are interested in.
-5|HGTV|56-2|2| Home & Garden Television presents ideas, information and inspiration from America's leading homebuilders, decorators, gardeners and craft experts.
-5|History Channel|56-3|2| HISTORY™ is a leading destination for revealing, award-winning original nonfiction series and event-driven specials that connect history with viewers in an informative, immersive and entertaining manner across multiple platforms. Programming covers a diverse variety of historical genres ranging from military history to contemporary history, technology to natural history, as well as science, archaeology and pop culture, in stunning true HD.
+1|A&E|51-2|2| A&E is Real Life. Drama. Now reaching more than 99 million homes, A&E is television that you can't turn away from; where unscripted shows are dramatic and scripted dramas are authentic. A&E offers a diverse mix of high quality entertainment ranging from the network's original scripted series including The Glades, to signature nonfiction franchises, including the Emmy-winning Intervention, Gene Simmons Family Jewels, Dog The Bounty Hunter, Hoarders, Paranormal State and Criss Angel Mindfreak, and the most successful justice shows on cable, including The First 48 and Manhunters.
+1|ABC Family|51-3|2| The destination for quality, contemporary family entertainment appealing to all ages in the household. ABC Family is the only national family channel providing the best in original and acquired movies, series, and specials.
+1|AMC|52-1|2| AMC is the network for people who love movies. We celebrate stylish iconic cinema and produce high caliber original series while giving viewers unprecedented access to their favorite stars.
+1|Animal Planet|52-2|2| Animal Planet immerses viewers in the full range of the animal kingdom with rich, engaging, high-quality entertainment, information and enrichment. Animal Planet taps into the instincts that drive us with stories and characters that resonate with the human condition.
+1|BET|52-3|2| BET is the nation's first and only television network providing a platform for quality programming highlighting African-American culture. BET represents the best in entertainment, trend-setting music videos, news, public affairs, jazz, specials, off-network sitcoms, gospel and college sports.
+1|Bravo|53-1|2| Bravo is the cable network that plugs people into arts, entertainment and pop culture with original programming, acclaimed drama series, movies, comedy and music specials, and by showing a whole different side of celebrities.
+1|Cartoon Network|53-2|2| The best place for cartoons; drawing from the world's largest cartoon library. Cartoon Network consists of innovative packaging of beloved cartoon characters and new cartoons such as The Powerpuff Girls, Ed, Edd 'n Eddy, Johnny Bravo, Samurai Jack and Dexter's Laboratory.
+1|Comedy Central|53-3|2| The only all-comedy network. Comedy Central is the place viewers turn to for 24 hours of programming that is clever, smart and, of course, funny.
+1|Discovery|54-1|2| Illustrating the world in all its wonder, diversity and amazement, Discovery Channel creates the highest quality content that ignites viewers curiosity, immerses them in the how and why, and satisfies them with information.
+1|Disney Channel|54-2|2| The Disney Channel has original series, music specials, and a new original movie premiering every month!
+1|E! Entertainment TV|54-3|2| E! inspires and entertains the pop culture fan in all of us. We never let you go a day, an hour, a minute without your pop of culture.
+1|Food Network|55-1|2| Food Network allows viewers to learn new recipes, innovative cooking techniques, add excitement to family meals, explore the country's finest restaurants, discover the latest healthy alternative and enjoy the humor and warmth of America's top chefs.
+1|FX|55-2|2| FX is the flagship general entertainment basic cable network from FOX. Launched in June of 1994, FX is carried in more than 94 million homes. The diverse schedule includes a growing roster of distinctive, award-winning original series including Emmy® and Golden Globe® winning The Shield; nip/tuck, basic cable's #1 show in the coveted Adults 18-49 demo; Emmy & Golden Globe nominated Rescue Me starring Denis Leary; and Damages, starring Golden Globe winner Glenn Close. FX also features an established film library with box-office hits from 20th Century FOX and other major studios and an impressive roster of acquired hit series.
+1|Fuel|55-3|2|Cars Channel
+1|G-4|56-1|2| G4 offers the last word on gaming, technology, animation, interactivity, and "Internet culture" for the male 18-34 demo and is available in more than 62 million cable and satellite homes nationwide. The #1 podcasted cable network in America and a leader in VOD, G4 embraces the male 18-34 audience and their fascination with video games, the Internet, broadband, technology, comics and animation. Additionally, G4 provides breaking news and insider opinions on these topics as well as the broader culture young men are interested in.
+1|HGTV|56-2|2| Home & Garden Television presents ideas, information and inspiration from America's leading homebuilders, decorators, gardeners and craft experts.
+1|History Channel|56-3|2| HISTORY™ is a leading destination for revealing, award-winning original nonfiction series and event-driven specials that connect history with viewers in an informative, immersive and entertaining manner across multiple platforms. Programming covers a diverse variety of historical genres ranging from military history to contemporary history, technology to natural history, as well as science, archaeology and pop culture, in stunning true HD.
 1|IFC|57-1|2| IFC presents the most extensive library of independent films, award-winning documentaries, live event coverage and original series on television.
 1|Investigation Disc.|57-2|2| Investigation Discovery (ID) provides in-depth documentaries and series that challenge viewers on the key issues shaping our culture and defining our world. ID delivers insight into the real-life world of investigation, exploration of true stories that piece together dramatic puzzles of human nature.
 1|Lifetime Network|57-3|2| Lifetime Television, the most powerful media brand targeted to women, offers the highest quality entertainment and informational content that celebrates, entertains and supports women. We provide critically acclaimed, award-winning and popular original programming for women that spans movies and miniseries, dramas, comedies and reality series.
 1|MTV|58-1|2| From music, fashion, lifestyle and sports to attitudes, politics, news and trends, only MTV offers what is consistently fresh, honest and groundbreaking. MTV is the #1 24-hour ad-supported cable network among 12–34 year olds, fueled in part by such hits as Laguna Beach, Real World, Making the Band 3, Run's House and others.
 1|MTV-2|58-2|2| MTV2 is the premier destination for its audience to find the hottest mix of music videos, long form music programs, exclusive access to their favorite bands, and groundbreaking music before it hits mainstream while combining their other passions through a compelling line-up of irreverent, lifestyle and cross platform programming.
 1|MTV-U|58-3|2| mtvU is MTV Networks' Emmy-winning 24-hour college network and the largest and most comprehensive media network just for college students. The heart of the channel is the emerging music college students live their lives to, including music videos and a range of series profiling up-and-coming acts bubbling on the college scene.
-5|National Geographic|59-1|2| The National Geographic Channel dares viewers to go farther and get closer with adventurous new shows.
+1|National Geographic|59-1|2| The National Geographic Channel dares viewers to go farther and get closer with adventurous new shows.
 1|Nickelodeon|59-2|2| Nickelodeon offers excellent programming centered around our world-famous Nick Toons and live action originals, and give kids the latest in pop culture. Nick puts Kids First. Rugrats, SpongeBob SquarePants, Dora the Explorer, Fairly Odd Parents, Taina, Bob the Builder.
 1|Oxygen|59-3|2| Puts a fresh spin on television for women. With original series by Oprah Winfrey, Isaac Mizrahi, and Carrie Fisher, Oxygen airs more original programming than any other women's network.
 5|Science|60-1|2| Celebrating the full spectrum of science, Science Channel is the key destination for viewers who like questions better than answers. Hungry to know how science touches every detail of their lives, they rely on the Science Channel to feed them.
@@ -93,50 +93,50 @@
 1|TLC|62-2|2| TLC engages the heart and mind by transporting viewers into the lives of real-life extra-ordinary people with character. TLC programs are entertaining, unfiltered and always reveal something worthwhile.
 1|TNT|62-3|2| It's big-time entertainment, featuring the greatest movies Hollywood ever made, star-studded original productions, classic kids' shows and action-packed sports.
 1|Travel Channel|63-1|2| It's big-time entertainment, featuring the greatest movies Hollywood ever made, star-studded original productions, classic kids' shows and action-packed sports.
-1|truTV|63-2|2| The first and only cable network dedicated to crime and justice in America.
+1|TruTV|63-2|2| The first and only cable network dedicated to crime and justice in America.
 1|USA|63-3|2| USA Network is cable television's leading provider of original series and feature movies, sports events, off-net television shows, and blockbuster theatrical films.
 1|VH-1|64-1|2| VH1 connects viewers to the music, artists and pop culture that matter to them most with popular series and franchises such as Celebreality World Series Of Pop Culture, I Love the ..., The Fabulous Life, and All Access. Also, one-of-a-kind specials including Hip Hop Honors, Rock Honors and exclusive online content and public affairs initiatives — most notably our Save the Music Campaign.
-9|HIT LIST|66-1|1| Music Channel with a variety of music from this genre. 
-9|HIP-HOP and R&amp;B|66-2|1| Music Channel with a variety of music from this genre. 
-9|DANCE/ELECTRNICA|66-3|1| Music Channel with a variety of music from this genre. 
-9|RAP|66-4|1| Music Channel with a variety of music from this genre. 
-9|HIP-HOP CLASSICS|66-5|1| Music Channel with a variety of music from this genre. 
-9|THROWBACK JAMZ|66-6|1| Music Channel with a variety of music from this genre. 
-9|R&B CLASSICS|66-7|1| Music Channel with a variety of music from this genre. 
-9|R&B SOUL|66-8|1| Music Channel with a variety of music from this genre. 
-9|GOSPEL|66-9|1| Music Channel with a variety of music from this genre. 
-9|REGGAE|66-10|1| Music Channel with a variety of music from this genre. 
-9|CLASSIC ROCK|66-11|1| Music Channel with a variety of music from this genre. 
-9|RETRO ROCK|66-12|1| Music Channel with a variety of music from this genre. 
-9|ROCK|66-13|1| Music Channel with a variety of music from this genre. 
-9|METAL|66-14|1| Music Channel with a variety of music from this genre. 
-9|ALTERNATIVE|66-15|1| Music Channel with a variety of music from this genre. 
-9|CLASSIC ALTERNATIVE|66-16|1| Music Channel with a variety of music from this genre. 
-9|ADULT ALTERNATIVE|66-17|1| Music Channel with a variety of music from this genre. 
-9|SOFT ROCK|66-18|1| Music Channel with a variety of music from this genre. 
-9|POP HITS|67-1|1| Music Channel with a variety of music from this genre. 
-9|90'S|67-2|1| Music Channel with a variety of music from this genre. 
-9|80'S|67-3|1| Music Channel with a variety of music from this genre. 
-9|70'S|67-4|1| Music Channel with a variety of music from this genre. 
-9|SOLID GOLD OLDIES|67-5|1| Music Channel with a variety of music from this genre. 
-9|PARTY FAVORITES|67-6|1| Music Channel with a variety of music from this genre. 
-9|STAGE & SCREEN|67-7|1| Music Channel with a variety of music from this genre. 
-9|KIDZ ONLY|67-8|1| Music Channel with a variety of music from this genre. 
-9|TODDLER TUNES|67-9|1| Music Channel with a variety of music from this genre. 
-9|TODAY'S COUNTRY|67-10|1| Music Channel with a variety of music from this genre. 
-9|TRUE COUNTRY|67-11|1| Music Channel with a variety of music from this genre. 
-9|CLASSIC COUNTRY|67-12|1| Music Channel with a variety of music from this genre. 
-9|CONTEMPORARY CHRISTIAN|67-13|1| Music Channel with a variety of music from this genre. 
-9|SOUNDS OF THE SEASON|67-14|1| Music Channel with a variety of music from this genre. 
-9|SOUNDSCAPES|67-15|1| Music Channel with a variety of music from this genre. 
-9|SMOOTH JAZZ|67-16|1| Music Channel with a variety of music from this genre. 
-9|JAZZ|67-17|1| Music Channel with a variety of music from this genre. 
-9|BLUES|67-18|1| Music Channel with a variety of music from this genre. 
-9|SINGERS & SWING|68-1|1| Music Channel with a variety of music from this genre. 
-9|EASY LISTENING|68-2|1| Music Channel with a variety of music from this genre. 
-9|CLASSICAL MASTERPIECES|68-3|1| Music Channel with a variety of music from this genre. 
-9|LIGHT CLASSICAL|68-4|1| Music Channel with a variety of music from this genre. 
-9|MUSICA URBANA|68-5|1| Music Channel with a variety of music from this genre. 
-9|POP LATINO|68-6|1| Music Channel with a variety of music from this genre. 
-9|TROPICALES|68-7|1| Music Channel with a variety of music from this genre. 
-9|MEXICANA|68-8|1| Music Channel with a variety of music from this genre. 
+4|HIT LIST Music|66-1|1| Music Channel with a variety of music from this genre.
+4|HIP-HOP and R&amp;B Music|66-2|1| Music Channel with a variety of music from this genre.
+4|DANCE/ELECTRNICA Music|66-3|1| Music Channel with a variety of music from this genre.
+4|RAP|66-4|1| Music Channel with a variety of music from this genre.
+4|HIP-HOP CLASSIC Music|66-5|1| Music Channel with a variety of music from this genre.
+4|THROWBACK JAMZ Music|66-6|1| Music Channel with a variety of music from this genre.
+4|R&B CLASSIC Music|66-7|1| Music Channel with a variety of music from this genre.
+4|R&B SOUL|66-8|1| Music Channel with a variety of music from this genre.
+4|GOSPEL Music|66-9|1| Music Channel with a variety of music from this genre.
+4|REGGAE Music|66-10|1| Music Channel with a variety of music from this genre.
+4|CLASSIC ROCK Music|66-11|1| Music Channel with a variety of music from this genre.
+4|RETRO ROCK Music|66-12|1| Music Channel with a variety of music from this genre.
+4|ROCK Music|66-13|1| Music Channel with a variety of music from this genre.
+4|METAL Music|66-14|1| Music Channel with a variety of music from this genre.
+4|ALTERNATIVE Music|66-15|1| Music Channel with a variety of music from this genre.
+4|CLASSIC ALTERNATIVE Music|66-16|1| Music Channel with a variety of music from this genre.
+4|ADULT ALTERNATIVE Music|66-17|1| Music Channel with a variety of music from this genre.
+4|SOFT ROCK|66-18 Music|1| Music Channel with a variety of music from this genre.
+4|POP HIT Music|67-1|1| Music Channel with a variety of music from this genre.
+4|90'S Music|67-2|1| Music Channel with a variety of music from this genre.
+4|80'S Music|67-3|1| Music Channel with a variety of music from this genre.
+4|70'S Music|67-4|1| Music Channel with a variety of music from this genre.
+4|SOLID GOLD OLDIES Music|67-5|1| Music Channel with a variety of music from this genre.
+4|PARTY FAVORITES Music|67-6|1| Music Channel with a variety of music from this genre.
+4|STAGE & SCREEN| Music67-7|1| Music Channel with a variety of music from this genre.
+4|KIDZ ONLY Music|67-8|1| Music Channel with a variety of music from this genre.
+4|TODDLER TUNES Music|67-9|1| Music Channel with a variety of music from this genre.
+4|TODAY'S COUNTRY Music|67-10|1| Music Channel with a variety of music from this genre.
+4|TRUE COUNTRY Music|67-11|1| Music Channel with a variety of music from this genre.
+4|CLASSIC COUNTRY Music|67-12|1| Music Channel with a variety of music from this genre.
+4|CONTEMPORARY CHRISTIAN Music|67-13|1| Music Channel with a variety of music from this genre.
+4|SOUNDS OF THE SEASON Music|67-14|1| Music Channel with a variety of music from this genre.
+4|SOUNDSCAPES Music|67-15|1| Music Channel with a variety of music from this genre.
+4|SMOOTH JAZZ Music|67-16|1| Music Channel with a variety of music from this genre.
+4|JAZZ Music|67-17|1| Music Channel with a variety of music from this genre.
+4|BLUES Music|67-18|1| Music Channel with a variety of music from this genre.
+4|SINGERS & SWING Music|68-1|1| Music Channel with a variety of music from this genre.
+4|EASY LISTENING Music|68-2|1| Music Channel with a variety of music from this genre.
+4|CLASSICAL MASTERPIECES Music|68-3|1| Music Channel with a variety of music from this genre.
+4|LIGHT CLASSICAL Music|68-4|1| Music Channel with a variety of music from this genre.
+4|MUSICA URBANA Music|68-5|1| Music Channel with a variety of music from this genre.
+4|POP LATINO Music|68-6|1| Music Channel with a variety of music from this genre.
+4|TROPICALES Music|68-7|1| Music Channel with a variety of music from this genre.
+4|MEXICANA Music|68-8|1| Music Channel with a variety of music from this genre.

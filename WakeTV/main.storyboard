@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jZu-kR-6ug">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jZu-kR-6ug">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Vmain View Controller - All Channels-->
@@ -108,7 +108,7 @@
         <scene sceneID="v8R-CH-iQI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vjD-Di-z9c" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="All" id="wmO-7l-4hi"/>
+                    <tabBarItem key="tabBarItem" title="All" image="home.png" id="wmO-7l-4hi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iyT-S2-B8n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -194,7 +194,7 @@
         <scene sceneID="a2K-r4-uTs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9cv-Jt-1sd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="3" title="Sports" id="yMT-wU-jdk"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="Sports" image="Sports-Football-2-icon.png" id="yMT-wU-jdk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MOs-CK-L4f">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -247,7 +247,7 @@
         <scene sceneID="ZJ2-0M-ttY">
             <objects>
                 <navigationController title="Entertainment" automaticallyAdjustsScrollViewInsets="NO" id="HBo-hj-eoO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" title="Entertainment" id="GiD-aP-mNW"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Entertainment" image="Entertaiment.png" id="GiD-aP-mNW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MnX-GX-eLA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -289,7 +289,7 @@
                             <outlet property="delegate" destination="Hq2-yY-V8b" id="YyG-LE-gvK"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="News" id="ZHu-qh-q1k"/>
+                    <tabBarItem key="tabBarItem" title="News" image="news-128.png" id="ZHu-qh-q1k"/>
                     <navigationItem key="navigationItem" title="News" id="BO9-bV-7eG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLU-cI-Psc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -353,7 +353,7 @@
         <scene sceneID="ufz-Dw-mRo">
             <objects>
                 <navigationController title="Movies" automaticallyAdjustsScrollViewInsets="NO" id="Mtw-vh-Wml" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="4" title="Movies" id="U2i-Ig-rF5"/>
+                    <tabBarItem key="tabBarItem" tag="4" title="Movies" image="Icon_26-128.png" id="U2i-Ig-rF5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="awd-iP-rMV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -369,12 +369,19 @@
             <point key="canvasLocation" x="1482" y="-2587"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Entertaiment.png" width="25" height="25"/>
+        <image name="Icon_26-128.png" width="25" height="25"/>
+        <image name="Sports-Football-2-icon.png" width="25" height="25"/>
+        <image name="home.png" width="25" height="25"/>
+        <image name="news-128.png" width="25" height="25"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="MKo-61-2Jr"/>
+        <segue reference="gjQ-j6-rJp"/>
     </inferredMetricsTieBreakers>
 </document>
