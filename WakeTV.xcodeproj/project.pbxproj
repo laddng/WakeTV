@@ -26,7 +26,6 @@
 		3187882118EC9F1F003EBAEB /* WTVsubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187882018EC9F1F003EBAEB /* WTVsubViewController.m */; };
 		31ECB153190862220023EB07 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB14E190862220023EB07 /* home.png */; };
 		31ECB15E190863160023EB07 /* news-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB15D190863160023EB07 /* news-128.png */; };
-		31ECB160190864230023EB07 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB15F190864230023EB07 /* home.png */; };
 		31ECB164190864EC0023EB07 /* Entertaiment.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB161190864EC0023EB07 /* Entertaiment.png */; };
 		31ECB165190864EC0023EB07 /* Icon_26-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB162190864EC0023EB07 /* Icon_26-128.png */; };
 		31ECB166190864EC0023EB07 /* Sports-Football-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB163190864EC0023EB07 /* Sports-Football-2-icon.png */; };
@@ -69,7 +68,6 @@
 		3187882018EC9F1F003EBAEB /* WTVsubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVsubViewController.m; sourceTree = "<group>"; };
 		31ECB14E190862220023EB07 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		31ECB15D190863160023EB07 /* news-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-128.png"; sourceTree = "<group>"; };
-		31ECB15F190864230023EB07 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		31ECB161190864EC0023EB07 /* Entertaiment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Entertaiment.png; path = ../Entertaiment.png; sourceTree = "<group>"; };
 		31ECB162190864EC0023EB07 /* Icon_26-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon_26-128.png"; path = "../Icon_26-128.png"; sourceTree = "<group>"; };
 		31ECB163190864EC0023EB07 /* Sports-Football-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sports-Football-2-icon.png"; path = "../Sports-Football-2-icon.png"; sourceTree = "<group>"; };
@@ -132,16 +130,10 @@
 		3106929218DA2EE800617448 /* WakeTV */ = {
 			isa = PBXGroup;
 			children = (
-				31ECB15D190863160023EB07 /* news-128.png */,
-				31ECB163190864EC0023EB07 /* Sports-Football-2-icon.png */,
-				31ECB162190864EC0023EB07 /* Icon_26-128.png */,
-				31ECB161190864EC0023EB07 /* Entertaiment.png */,
 				317605BB18F5EE0300EDDE91 /* channels.txt */,
 				3106929B18DA2EE800617448 /* WTVAppDelegate.h */,
-				31ECB15F190864230023EB07 /* home.png */,
 				3106929C18DA2EE800617448 /* WTVAppDelegate.m */,
 				310692BD18DA2F1E00617448 /* main.storyboard */,
-				31ECB14E190862220023EB07 /* home.png */,
 				310692C118DA30DA00617448 /* WTVmainViewController.h */,
 				310692C218DA30DA00617448 /* WTVmainViewController.m */,
 				3187881F18EC9F1F003EBAEB /* WTVsubViewController.h */,
@@ -157,6 +149,11 @@
 		3106929318DA2EE800617448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31ECB15D190863160023EB07 /* news-128.png */,
+				31ECB163190864EC0023EB07 /* Sports-Football-2-icon.png */,
+				31ECB162190864EC0023EB07 /* Icon_26-128.png */,
+				31ECB161190864EC0023EB07 /* Entertaiment.png */,
+				31ECB14E190862220023EB07 /* home.png */,
 				3106929418DA2EE800617448 /* WakeTV-Info.plist */,
 				3106929518DA2EE800617448 /* InfoPlist.strings */,
 				3106929818DA2EE800617448 /* main.m */,
@@ -266,7 +263,6 @@
 				31ECB153190862220023EB07 /* home.png in Resources */,
 				310692BE18DA2F1E00617448 /* main.storyboard in Resources */,
 				31ECB166190864EC0023EB07 /* Sports-Football-2-icon.png in Resources */,
-				31ECB160190864230023EB07 /* home.png in Resources */,
 				3106929F18DA2EE800617448 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
