@@ -22,6 +22,7 @@
 		310692BE18DA2F1E00617448 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310692BD18DA2F1E00617448 /* main.storyboard */; };
 		310692C318DA30DA00617448 /* WTVmainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310692C218DA30DA00617448 /* WTVmainViewController.m */; };
 		3149C69918E364E500E6B0E1 /* WTVChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149C69818E364E500E6B0E1 /* WTVChannel.m */; };
+		316CFE4B190EE488004693BC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 316CFE4A190EE488004693BC /* icon.png */; };
 		317605BC18F5EE0300EDDE91 /* channels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 317605BB18F5EE0300EDDE91 /* channels.txt */; };
 		3187882118EC9F1F003EBAEB /* WTVsubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187882018EC9F1F003EBAEB /* WTVsubViewController.m */; };
 		31ECB153190862220023EB07 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 31ECB14E190862220023EB07 /* home.png */; };
@@ -63,6 +64,7 @@
 		310692C218DA30DA00617448 /* WTVmainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVmainViewController.m; sourceTree = "<group>"; };
 		3149C69718E364E500E6B0E1 /* WTVChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVChannel.h; sourceTree = "<group>"; };
 		3149C69818E364E500E6B0E1 /* WTVChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVChannel.m; sourceTree = "<group>"; };
+		316CFE4A190EE488004693BC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		317605BB18F5EE0300EDDE91 /* channels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = channels.txt; sourceTree = "<group>"; };
 		3187881F18EC9F1F003EBAEB /* WTVsubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVsubViewController.h; sourceTree = "<group>"; };
 		3187882018EC9F1F003EBAEB /* WTVsubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVsubViewController.m; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		3106929318DA2EE800617448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				316CFE4A190EE488004693BC /* icon.png */,
 				31ECB15D190863160023EB07 /* news-128.png */,
 				31ECB163190864EC0023EB07 /* Sports-Football-2-icon.png */,
 				31ECB162190864EC0023EB07 /* Icon_26-128.png */,
@@ -261,6 +264,7 @@
 				31ECB165190864EC0023EB07 /* Icon_26-128.png in Resources */,
 				31ECB164190864EC0023EB07 /* Entertaiment.png in Resources */,
 				31ECB153190862220023EB07 /* home.png in Resources */,
+				316CFE4B190EE488004693BC /* icon.png in Resources */,
 				310692BE18DA2F1E00617448 /* main.storyboard in Resources */,
 				31ECB166190864EC0023EB07 /* Sports-Football-2-icon.png in Resources */,
 				3106929F18DA2EE800617448 /* Images.xcassets in Resources */,
